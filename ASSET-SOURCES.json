@@ -1,0 +1,80 @@
+{
+  "assets": [
+    {
+      "file": "C:\\Users\\vanma\\enterprise-project\\asset-staging\\dairy-milk-silk.jpg",
+      "name": "Cadbury Dairy Milk Silk, 60 g",
+      "originalImageUrl": "https://images.apollo247.in/pub/media/catalog/product/d/a/dai0045_1.jpg",
+      "sourcePageUrl": "https://www.apollopharmacy.in/otc/dairy-milk-silk-60g",
+      "notes": "White background; isolated upright pack."
+    },
+    {
+      "file": "C:\\Users\\vanma\\enterprise-project\\asset-staging\\dairy-milk-classic.jpg",
+      "name": "Cadbury Dairy Milk, 38 g",
+      "originalImageUrl": "https://images.apollo247.in/pub/media/catalog/product/c/a/cad0069_1.jpg",
+      "sourcePageUrl": "https://www.apollopharmacy.in/otc/dairy-milk-silk-60g",
+      "notes": "White background; horizontal pack. Related-product image on source page, visually verified."
+    },
+    {
+      "file": "C:\\Users\\vanma\\enterprise-project\\asset-staging\\dairy-milk-silk-almond.jpg",
+      "name": "Cadbury Dairy Milk Silk Roast Almond, 143 g",
+      "originalImageUrl": "https://images.apollo247.in/pub/media/catalog/product/d/a/dai0069_1_2.jpg",
+      "sourcePageUrl": "https://www.apollopharmacy.in/otc/dairy-milk-silk-60g",
+      "notes": "Alternative Silk variant. White background; isolated upright pack."
+    },
+    {
+      "file": "C:\\Users\\vanma\\enterprise-project\\asset-staging\\kitkat-dark.jpg",
+      "name": "Nestle KitKat Delights Dark, 50 g",
+      "originalImageUrl": "https://images.apollo247.in/pub/media/catalog/product/k/i/kit0110_1__1.jpg",
+      "sourcePageUrl": "https://www.apollopharmacy.in/otc/kitkat-dark-chocolate-coated-wafer-50g",
+      "notes": "White background; isolated upright pack. Use the Dark variant name."
+    },
+    {
+      "file": "C:\\Users\\vanma\\enterprise-project\\asset-staging\\kitkat-share-snap.jpg",
+      "name": "Nestle KitKat Share & Snap, 57 g",
+      "originalImageUrl": "https://images.apollo247.in/pub/media/catalog/product/k/i/kit0082_2.jpg",
+      "sourcePageUrl": "https://www.apollopharmacy.in/otc/kitkat-dark-chocolate-coated-wafer-50g",
+      "notes": "Alternative KitKat variant; real promotional F1 packaging and QR code are visible."
+    },
+    {
+      "file": "C:\\Users\\vanma\\enterprise-project\\asset-staging\\amul-dark.png",
+      "name": "Amul 55% Dark Chocolate, 150 g pack of 2",
+      "originalImageUrl": "https://shop.amul.com/s/62fa94df8c13af2e242eba16/66892dbe7a7dfd8710e7d86b/01-hero-image_amul-chocolate-dark-chocolate-55percent-pack-of-2.png",
+      "sourcePageUrl": "https://shop.amul.com/en/product/amul-55percent-dark-chocolate-150-g-or-pack-of-2",
+      "notes": "Promotional product graphic, green background, 2 Packs and 150 g printed; not isolated."
+    },
+    {
+      "file": "C:\\Users\\vanma\\enterprise-project\\asset-staging\\ferrero-rocher.png",
+      "name": "Ferrero Rocher, 16-piece gift box",
+      "originalImageUrl": "https://www.ferrerorocher.com/us/sites/ferrerorocher20_us/files/2022-11/t16_main.png",
+      "sourcePageUrl": "https://www.ferrerorocher.com/us/en/our-products/ferrero-rocher/16-piece-gift-box",
+      "notes": "Transparent isolated packshot with reflection. Source is US market; confirm local package matches."
+    },
+    {
+      "file": "C:\\Users\\vanma\\enterprise-project\\asset-staging\\ferrero-hero.jpg",
+      "name": "Ferrero Rocher sharing lifestyle hero",
+      "originalImageUrl": "https://www.ferrerorocher.com/us/sites/ferrerorocher20_us/files/2021-11/carestorage_prod_pc.jpg",
+      "sourcePageUrl": "https://www.ferrerorocher.com/us/en/our-products/ferrero-rocher/16-piece-gift-box",
+      "notes": "Landscape photo of hands sharing Ferrero Rocher. Brand-specific, not generic chocolate."
+    }
+  ],
+  "remoteOnly": [
+    {
+      "name": "Nestle KitKat 4 Finger",
+      "originalImageUrl": "https://www.nestle.in/sites/g/files/pydnoa451/files/styles/product_showcase_image/public/274x234-1_0006_Kitkat-4F--38.5g--Backstory-Laminate_485C--Backstory_44295621-3D-1.png.webp?itok=MbyxARco",
+      "sourcePageUrl": "https://www.nestle.in/brands/chocolate-and-confectionery/kitkat",
+      "status": "Verified image link on official page; download request returned HTTP 403."
+    },
+    {
+      "name": "Nestle Munch",
+      "originalImageUrl": "https://www.nestle.in/sites/g/files/pydnoa451/files/styles/product_showcase_image/public/%28274x234%29-1px_0000_Munch-Laminate-R_-Line-3-8.9-g_44272404-Fop-3D.png.webp?itok=zFbYInRo",
+      "sourcePageUrl": "https://www.nestle.in/brands/chocolate-and-confectionery/munch",
+      "status": "Verified image link on official page; download request returned HTTP 403."
+    }
+  ],
+  "missing": [
+    "Bournville",
+    "Milkybar"
+  ],
+  "reuseNotes": "Brand packaging, trademarks, product photography and lifestyle images remain owned by their respective rights holders. No explicit open reuse licence was identified. Public availability is not a licence; confirm permission for public/commercial deployment. These are real unedited downloaded assets. Product pages and regional packaging may differ; use the actual variant names recorded here.",
+  "verificationNotes": "Visually inspected all 8 downloaded image files. Rejected one incorrectly labelled Dairy Milk Original retailer image because it showed Dark Milk. Replaced with actual classic Dairy Milk 38 g pack. No generated packaging or image edits."
+}

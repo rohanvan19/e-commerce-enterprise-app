@@ -1,0 +1,6 @@
+.build/
+.bsp/
+xtool/
+Sources/CocoaLocal/Connection.json
+
+Support/Paired-Info.plist

@@ -1,0 +1,144 @@
+export type Product = {
+  id: string;
+  sku: string;
+  name: string;
+  brand: string;
+  category: string;
+  weight: string;
+  description: string;
+  ingredients: string;
+  allergens: string;
+  image: string;
+  price: number;
+  mrp: number;
+  cost: number;
+  stock: number;
+  available_stock: number;
+  reorder_level: number;
+  active: number;
+  featured: number;
+  color: string;
+  tax_bps: number;
+  version: number;
+  rating: number | null;
+  review_count: number;
+};
+export type CartItem = Product & { quantity: number };
+export type User = {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  role: "customer" | "admin";
+  verified: boolean;
+  created_at: string;
+};
+export type Address = {
+  id: string;
+  name: string;
+  phone: string;
+  line1: string;
+  line2: string;
+  area: string;
+  pincode: string;
+};
+export type OrderItem = {
+  product_id: string;
+  name: string;
+  sku: string;
+  weight: string;
+  image: string;
+  quantity: number;
+  price: number;
+};
+export type Order = {
+  id: string;
+  status: string;
+  payment_status: string;
+  payment_method: string;
+  subtotal: number;
+  discount: number;
+  shipping: number;
+  tax: number;
+  total: number;
+  created_at: string;
+  updated_at: string;
+  shipping_address: Address;
+  items: OrderItem[];
+  tracking: string;
+  gift_note: string;
+  coupon: string;
+  return_request: null | { id: string; reason: string; status: string };
+  customer_name?: string;
+  customer_email?: string;
+};
+export type Config = {
+  name: string;
+  currency: string;
+  shipping: number;
+  freeShipping: number;
+  pincodes: string[];
+  deliveryWindow: string;
+  supportEmail: string;
+};
+export type StoreState = {
+  products: Product[];
+  user: User | null;
+  cart: CartItem[];
+  wishlist: string[];
+  addresses: Address[];
+  orders: Order[];
+  config: Config;
+  mode: string;
+  revision: number;
+};
+export type Quote = {
+  subtotal: number;
+  discount: number;
+  shipping: number;
+  tax: number;
+  total: number;
+  coupon: string;
+};
+export type Batch = {
+  id: string;
+  product_id: string;
+  product_name: string;
+  lot: string;
+  supplier: string;
+  quantity: number;
+  expires_on: string;
+};
+export type Coupon = {
+  code: string;
+  percent: number;
+  min_total: number;
+  max_discount: number;
+  usage_limit: number;
+  used: number;
+  active: number;
+  expires_on: string;
+};
+export type AdminState = {
+  products: Product[];
+  orders: Order[];
+  customers: (User & { order_count: number; spent: number })[];
+  batches: Batch[];
+  movements: {
+    id: number;
+    product_name: string;
+    delta: number;
+    reason: string;
+    created_at: string;
+  }[];
+  coupons: Coupon[];
+  audit: {
+    id: number;
+    actor_name: string;
+    actor: string;
+    action: string;
+    detail: string;
+    created_at: string;
+  }[];
+  config: Config;
+};

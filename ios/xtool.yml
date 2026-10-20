@@ -1,0 +1,7 @@
+version: 1
+bundleID: com.rohanvanmali.cocoalocal
+product: CocoaLocal
+infoPath: Support/Paired-Info.plist
+
+
+iconPath: Support/AppIcon.png
